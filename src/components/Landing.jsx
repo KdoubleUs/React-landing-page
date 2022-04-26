@@ -1,7 +1,7 @@
 import React from "react";
 import { motin } from "framer-motion";
 import styled from "styled-components";
-
+import img from "/Users/kdoubleu/sei/projects/react-personal-profile/src/images/computer-programmer-icon-7.jpeg";
 export const Section = styled.section`
   height: 100vh;
   width: 100vw;
@@ -22,17 +22,8 @@ const ColumnLeft = styled.div`
   justify-item: flex-start;
   justify-content: center;
   align-item: flex-start;
-  padding: 5rem 2rem;
-
-  h1 {
-    margin-bottom: 0.5rem;
-    font-size: 2rem;
-  }
-  p {
-    margin: 2rem 0;
-    font-size: 4rem;
-    line-height: 1.1;
-  }
+  margin: 0 0 10em 6em;
+  overflow: visible;
 `;
 
 const ColumnRight = styled.div`
@@ -47,10 +38,16 @@ export default function Landing() {
     <Section>
       <Container>
         <ColumnLeft>
-          <h1>What I have</h1>
+          <p className="top-head">Hi, my name is </p>
+          <h1 className="name-title">Kevin Wu.</h1>
+          <p className="bottom-head">
+            I am a full-stack engineer looking to progress my career in
+            becomming a better coder. I'm looking for a new adventure in my
+            coding journey. I can't wait for what the future lies ahead for me.
+          </p>
         </ColumnLeft>
         <ColumnRight>
-          <h1>What I have</h1>
+          <img src={img} height="400" width="400" className="hero" />
         </ColumnRight>
       </Container>
     </Section>

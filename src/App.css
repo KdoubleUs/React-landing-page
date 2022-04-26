@@ -1,3 +1,16 @@
+.app {
+  background: #283048; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #859398,
+    #283048
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #859398,
+    #283048
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .project-section {
   height: 100vh;
   width: 100%;
@@ -8,10 +21,44 @@
   align-items: center;
   justify-content: space-between;
   justify-items: center;
-  border-style: solid;
+  /* border-style: solid; */
   height: 10em;
-  width: 2em;
+  width: 3em;
   top: 25em;
   position: fixed;
   padding: 0.5em;
+}
+.social-svg {
+  color: white;
+  font-size: 2em;
+}
+.navbar-brand {
+  color: white !important;
+}
+.navA {
+  color: white !important;
+}
+.navA:hover {
+  background-color: bisque;
+  color: black !important;
+}
+.navbar-toggler-icon {
+  background-color: white !important;
+}
+.top-head {
+  font-size: 1.8em;
+  color: bisque;
+  font-weight: 500;
+}
+.name-title {
+  font-size: 4em;
+}
+.bottom-head {
+  font-size: 1.2em;
+
+  color: bisque;
+  font-weight: 500;
+}
+.hero {
+  margin: 0 0 0 4em;
 }

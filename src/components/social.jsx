@@ -15,6 +15,7 @@ function Social() {
         whileHover={{ scale: 1.2 }}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { duration: 1.5 } }}
+        className="social-svg"
       >
         {<IoLogoTwitter />}
       </motion.a>
@@ -23,6 +24,7 @@ function Social() {
         whileHover={{ scale: 1.2 }}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { duration: 1.5 } }}
+        className="social-svg"
       >
         {<IoLogoLinkedin />}
       </motion.a>
@@ -31,6 +33,7 @@ function Social() {
         whileHover={{ scale: 1.2 }}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { duration: 1.5 } }}
+        className="social-svg"
       >
         {<IoLogoInstagram />}
       </motion.a>
@@ -39,6 +42,7 @@ function Social() {
         whileHover={{ scale: 1.2 }}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { duration: 1.5 } }}
+        className="social-svg"
       >
         {<IoLogoGithub />}
       </motion.a>
