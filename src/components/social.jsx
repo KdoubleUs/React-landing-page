@@ -7,14 +7,27 @@ import {
 } from "react-icons/io";
 import { motion } from "framer-motion";
 import styled from "styled-components";
+
+const fadeFromLeft = {
+  hidden: { opacity: 0, x: -100 },
+  visible: { opacity: 1, x: 0 },
+};
 function Social() {
   return (
-    <div className="social-links">
+    <motion.div
+      className="social-links"
+      variants={fadeFromLeft}
+      initial="hidden"
+      animate="visible"
+      transition={{ duration: 0.8 }}
+    >
       <motion.a
         href="#"
         whileHover={{ scale: 1.2 }}
+        variants={fadeFromLeft}
         inital={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: { duration: 1.5 } }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
         className="social-svg"
       >
         {<IoLogoTwitter />}
@@ -22,8 +35,10 @@ function Social() {
       <motion.a
         href="#"
         whileHover={{ scale: 1.2 }}
+        variants={fadeFromLeft}
         inital={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: { duration: 1.5 } }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
         className="social-svg"
       >
         {<IoLogoLinkedin />}
@@ -31,8 +46,10 @@ function Social() {
       <motion.a
         href="#"
         whileHover={{ scale: 1.2 }}
+        variants={fadeFromLeft}
         inital={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: { duration: 1.5 } }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
         className="social-svg"
       >
         {<IoLogoInstagram />}
@@ -40,13 +57,15 @@ function Social() {
       <motion.a
         href="#"
         whileHover={{ scale: 1.2 }}
+        variants={fadeFromLeft}
         inital={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: { duration: 1.5 } }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
         className="social-svg"
       >
         {<IoLogoGithub />}
       </motion.a>
-    </div>
+    </motion.div>
   );
 }
 

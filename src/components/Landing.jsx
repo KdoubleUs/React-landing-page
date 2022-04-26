@@ -1,5 +1,5 @@
 import React from "react";
-import { motin } from "framer-motion";
+import { motion } from "framer-motion";
 import styled from "styled-components";
 import img from "/Users/kdoubleu/sei/projects/react-personal-profile/src/images/computer-programmer-icon-7.jpeg";
 export const Section = styled.section`
@@ -33,18 +33,45 @@ const ColumnRight = styled.div`
   justify-content: center;
   align-item: flex-start;
 `;
+
+const fadeFromBelow = {
+  hidden: { opacity: 0, y: 1000 },
+  visible: { opacity: 1, y: 0 },
+};
 export default function Landing() {
   return (
     <Section>
       <Container>
         <ColumnLeft>
-          <p className="top-head">Hi, my name is </p>
-          <h1 className="name-title">Kevin Wu.</h1>
-          <p className="bottom-head">
+          <motion.p
+            className="top-head"
+            variants={fadeFromBelow}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 1 }}
+          >
+            Hi, my name is{" "}
+          </motion.p>
+          <motion.h1
+            className="name-title"
+            variants={fadeFromBelow}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 1.2 }}
+          >
+            Kevin Wu.
+          </motion.h1>
+          <motion.p
+            className="bottom-head"
+            variants={fadeFromBelow}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 1.4 }}
+          >
             I am a full-stack engineer looking to progress my career in
             becomming a better coder. I'm looking for a new adventure in my
             coding journey. I can't wait for what the future lies ahead for me.
-          </p>
+          </motion.p>
         </ColumnLeft>
         <ColumnRight>
           <img src={img} height="400" width="400" className="hero" />
