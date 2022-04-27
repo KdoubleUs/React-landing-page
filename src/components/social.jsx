@@ -5,6 +5,7 @@ import {
   IoLogoInstagram,
   IoLogoGithub,
 } from "react-icons/io";
+import { AiOutlineMail } from "react-icons/ai";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
@@ -64,6 +65,17 @@ function Social() {
         className="social-svg"
       >
         {<IoLogoGithub />}
+      </motion.a>
+      <motion.a
+        href="#"
+        whileHover={{ scale: 1.2 }}
+        variants={fadeFromLeft}
+        inital={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        className="social-svg"
+      >
+        {<AiOutlineMail />}
       </motion.a>
     </motion.div>
   );

@@ -5,7 +5,7 @@ import Landing from "./components/Landing";
 import Project from "./components/Project";
 import Social from "./components/social";
 import Experience from "./Pages/Experience";
-
+import AboutMe from "./Pages/AboutMe";
 function App() {
   return (
     <div className="app">
@@ -14,6 +14,7 @@ function App() {
       <Social />
       <Project />
       <Experience />
+      <AboutMe />
     </div>
   );
 }

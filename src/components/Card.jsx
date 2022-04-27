@@ -9,7 +9,7 @@ function Card(props) {
   return (
     <motion.div
       className="card-container"
-      whileHover={{ y: -30 }}
+      whileHover={{ y: -10, boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.4)" }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}

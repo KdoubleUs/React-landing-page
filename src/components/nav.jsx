@@ -24,7 +24,7 @@ function Navigation() {
             <Nav.Link href="#experience" className="navA">
               Experience
             </Nav.Link>
-            <Nav.Link href="/contact" className="navA">
+            <Nav.Link href="#about" className="navA">
               About
             </Nav.Link>
             <Nav.Link href="/resume" className="navA">
