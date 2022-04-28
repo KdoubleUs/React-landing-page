@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import { Nav, NavDropdown, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { motion } from "framer-motion";
+import resume from "../files/kwresumeSE.pdf";
 
 const dropFromAbove = {
   hidden: { opacity: 0, y: 50 },
@@ -30,7 +31,7 @@ function Navigation() {
             <Nav.Link href="/resume" className="navA">
               Contact
             </Nav.Link>
-            <Nav.Link href="/login" className="navA">
+            <Nav.Link href={resume} className="navA" download={resume}>
               Resume
             </Nav.Link>
           </Nav>
