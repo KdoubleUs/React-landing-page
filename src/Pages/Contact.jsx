@@ -20,7 +20,7 @@ const Container = styled.section`
 
 function Contact() {
   return (
-    <Section>
+    <Section id="contact">
       <Container>
         <h1> Lets Connect </h1>
         <p>
@@ -82,6 +82,9 @@ function Contact() {
               whileHover={{
                 scale: 1.1,
               }}
+              initial="none"
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.1 }}
             >
               Submit
             </motion.button>

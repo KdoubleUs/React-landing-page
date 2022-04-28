@@ -13,7 +13,7 @@ function Navigation() {
   return (
     <Navbar bg="dark" expand="lg" className="navigation">
       <Container>
-        <Navbar.Brand href="/" text="white">
+        <Navbar.Brand href="/" text="white" className="home">
           Kevin Wu
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -28,7 +28,7 @@ function Navigation() {
             <Nav.Link href="#about" className="navA">
               About
             </Nav.Link>
-            <Nav.Link href="/resume" className="navA">
+            <Nav.Link href="#contact" className="navA">
               Contact
             </Nav.Link>
             <Nav.Link href={resume} className="navA" download={resume}>
