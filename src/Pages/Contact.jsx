@@ -17,6 +17,7 @@ const Container = styled.section`
   justify-content: center;
   color: white;
 `;
+
 function Contact() {
   return (
     <Section>
@@ -28,7 +29,7 @@ function Contact() {
           love to meet new people and make new friends! Lets Connect
         </p>
         <form className="contact-form">
-          <table>
+          <table className="contact-form">
             <tr>
               <td align="" className="label">
                 Name:
@@ -75,9 +76,15 @@ function Contact() {
               </td>
             </tr>
 
-            <button type="submit" className="submitbtn">
+            <motion.button
+              type="submit"
+              className="submitbtn"
+              whileHover={{
+                scale: 1.1,
+              }}
+            >
               Submit
-            </button>
+            </motion.button>
           </table>
         </form>
       </Container>
