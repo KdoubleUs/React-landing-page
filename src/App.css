@@ -180,3 +180,18 @@
   display: flex;
   flex-direction: row;
 } */
+.span-text {
+  color: rgb(236, 255, 212);
+  font-weight: 900;
+}
+
+/* CONTACT */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.inputs {
+  margin: 1em;
+}

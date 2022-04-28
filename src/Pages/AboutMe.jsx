@@ -43,11 +43,15 @@ function AboutMe() {
               exposed to HTML5 and CSS3. I instantly fell in love with the
               freedom, creativity, and the ability to control what i do and
               make.
-              <br></br>
+            </p>
+            <p>
               The inspiration and liberty of building a website from scratch was
               so appealing to me and It's because of this passion, I continue to
-              love software development. I continue to learn everyday and I
-              enjoy every step of the journey
+              love software development.{" "}
+              <span className="span-text">
+                I continue to learn everyday and I enjoy every step of the
+                journey{" "}
+              </span>
             </p>
           </div>
         </ColumnLeft>

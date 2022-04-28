@@ -6,6 +6,7 @@ import Project from "./components/Project";
 import Social from "./components/social";
 import Experience from "./Pages/Experience";
 import AboutMe from "./Pages/AboutMe";
+import Contact from "./Pages/Contact";
 function App() {
   return (
     <div className="app">
@@ -15,6 +16,7 @@ function App() {
       <Project />
       <Experience />
       <AboutMe />
+      <Contact />
     </div>
   );
 }
