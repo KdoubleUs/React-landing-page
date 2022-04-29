@@ -30,44 +30,7 @@ function Experience() {
           <h1 id="et-2">My Set Of Skills And Tools That I Use To Develop</h1>
           <h3 id="et-3">Check out my aresenal of tools: </h3>
         </div>
-        {/* <div className="development">
-          <h1>Development</h1>
-          <ul className="ul-dev">
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>NodeJS</li>
-            <li>ExpressJS</li>
-            <li>React</li>
-            <li>DJANGO</li>
-            <li>Flask</li>
-            <li>Mongoose</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-          </ul>
-        </div> */}
-        {/* <div className="tools-section">
-          <h1 className="tools-title"> Tools</h1>
-          <ul className="tools">
-            <li>Git/Github</li>
-            <li>Heroku</li>
-            <li>Netlify</li>
 
-            <li>Command Line</li>
-            <li>Postman</li>
-            <li>Chrome DevTools</li>
-
-            <li>Firebase</li>
-            <li>AWS</li>
-          </ul>
-        </div> */}
-        {/* <div className="database">
-          <h1 className="db-title"> Database</h1>
-          <ul className="database-title">
-            <li>MongoDB</li>
-            <li>Postgres</li>
-            <li>MySQL</li>
-          </ul>
-        </div> */}
         <div className="setoftools">
           {SetOfImage.map((item, index) => (
             <div>

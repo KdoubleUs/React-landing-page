@@ -188,6 +188,7 @@
   letter-spacing: 0.15em;
   margin-top: 1em;
   margin-bottom: 0.7em;
+  color: bisque;
 }
 .tools {
   display: flex;
@@ -208,6 +209,7 @@
 }
 #et-2 {
   font-size: 2em;
+  color: bisque;
 }
 #et-1,
 #et-3 {
