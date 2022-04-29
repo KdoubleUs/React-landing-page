@@ -30,7 +30,7 @@ function AboutMe() {
     <Section id="about">
       <Container>
         <ColumnLeft>
-          <h1>Who Am i? </h1>
+          <h1 className="aboutme-title">Who Am I? </h1>
           <div>
             <p>
               <span className="span-text">

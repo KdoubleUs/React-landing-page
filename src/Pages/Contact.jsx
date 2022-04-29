@@ -22,7 +22,7 @@ function Contact() {
   return (
     <Section id="contact">
       <Container>
-        <h1> Lets Connect </h1>
+        <h1 className="contact-title"> Lets Connect </h1>
         <p>
           Click on one of the social links on the side of the page to connect to
           one of my media pages. Feel free to send me an email about anything. I
@@ -31,8 +31,8 @@ function Contact() {
         <form className="contact-form">
           <table className="contact-form">
             <tr>
-              <td align="" className="label">
-                Name:
+              <td align="">
+                <span className="label"> Name:</span>
                 <motion.input
                   type="text"
                   placeholder="insert your name"
@@ -45,8 +45,8 @@ function Contact() {
               </td>
             </tr>
             <tr>
-              <td align="" className="label">
-                Email:
+              <td align="">
+                <span className="label"> Email:</span>
                 <motion.input
                   type="text"
                   placeholder="insert your email"
@@ -62,7 +62,7 @@ function Contact() {
             </tr>
             <tr>
               <td align="" className="label">
-                Message:
+                <span className="label"> Message:</span>
                 <motion.input
                   type="text"
                   whileFocus={{
