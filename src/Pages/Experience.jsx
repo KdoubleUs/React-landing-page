@@ -73,7 +73,7 @@ function Experience() {
             <div>
               <img
                 src={require("../files/icons/" + item.image + ".svg")}
-                height={75}
+                height={85}
                 className="toolitem"
                 id={"tool" + item.number}
               />

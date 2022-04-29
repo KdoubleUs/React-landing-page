@@ -168,17 +168,19 @@
 .setoftools {
   display: flex;
   position: relative;
-  width: 45em;
+  width: 65em;
   left: 50%;
-  transform: translateX(-45%);
+  transform: translateX(-43%);
   flex-wrap: wrap;
 }
 .toolitem {
-  margin: 0 1em 0 1em;
+  margin: 0 2em 0 2em;
 }
 .tools-section {
-  position: relative;
-  margin-left: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .tools-title {
   font-size: 1.3em;
