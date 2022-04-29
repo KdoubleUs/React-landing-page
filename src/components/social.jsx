@@ -28,7 +28,7 @@ function Social() {
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.3 }}
         className="social-svg"
       >
         {<IoLogoTwitter />}
@@ -39,7 +39,7 @@ function Social() {
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.3 }}
         className="social-svg"
       >
         {<IoLogoLinkedin />}
@@ -50,7 +50,7 @@ function Social() {
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.3 }}
         className="social-svg"
       >
         {<IoLogoInstagram />}
@@ -61,7 +61,7 @@ function Social() {
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.3 }}
         className="social-svg"
       >
         {<IoLogoGithub />}
@@ -72,7 +72,7 @@ function Social() {
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.3 }}
         className="social-svg"
       >
         {<AiOutlineMail />}

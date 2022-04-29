@@ -30,7 +30,7 @@
   /* border-style: solid; */
   height: 10em;
   width: 3em;
-  top: 25em;
+  top: 20em;
   position: fixed;
   padding: 0.5em;
 }
@@ -71,6 +71,9 @@
 .prj-title {
   color: white;
   text-align: center;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  padding-top: 0.5em;
 }
 
 .navigation::before {
@@ -208,25 +211,40 @@
   border-radius: 4px;
   padding: 0.4em;
   margin: 1em;
-  background: linear-gradient(to right, rgb(244, 244, 61) 50%, white 50%);
+  background: linear-gradient(
+    to right,
+    rgba(106, 254, 106, 0.9) 50%,
+    white 50%
+  );
 
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.2s ease-out;
+  letter-spacing: 0.1em;
 }
 .submitbtn:hover {
   background-position: left bottom;
+  color: blue;
+  font-weight: 700;
+  letter-spacing: 0.3em;
 }
 .setoftools {
   display: flex;
   position: relative;
   width: 45em;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-45%);
   flex-wrap: wrap;
 }
 .toolitem {
   margin: 0 1em 0 1em;
+}
+.tools-section {
+  position: relative;
+  margin-left: 10em;
+}
+.tools-title {
+  font-size: 2em;
 }
 .tools {
   display: flex;
@@ -236,4 +254,23 @@
   flex-wrap: wrap;
   width: 50em;
   height: auto;
+  color: white;
+}
+.gear {
+  border-radius: 100%;
+}
+.experience-text {
+  margin: 1em 0 0 1em;
+  color: white;
+}
+#et-2 {
+  font-size: 2.5em;
+}
+#et-1,
+#et-3 {
+  font-size: 1.5em;
+}
+#et-1 {
+  word-spacing: 0.4em;
+  letter-spacing: 0.2em;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 // import img from "../images/react.svg";
 import SetOfImage from "../files/imageSet";
+import gear from "../images/gears.png";
 
 // import Container from "../components/Project";
 const Container = styled.section`
@@ -24,7 +25,11 @@ function Experience() {
   return (
     <div className="experience" id="experience">
       <Container className="big-Container">
-        <h1>Skills</h1>
+        <div className="experience-text">
+          <h3 id="et-1">SKILLS &amp; TOOLS</h3>
+          <h1 id="et-2">My set of skills and tools that I use to develop</h1>
+          <h3 id="et-3">Check out my aresenal of tools: </h3>
+        </div>
         {/* <div className="development">
           <h1>Development</h1>
           <ul className="ul-dev">
@@ -75,9 +80,14 @@ function Experience() {
           ))}
         </div>
         <div className="tools-section">
-          <h1 className="tools-title"> Tools</h1>
+          <h1 className="tools-title"> "Tools"</h1>
           <ul className="tools">
-            <li>Git/Github</li>
+            <li>
+              <span>
+                <img src={gear} height={30} className="gear" />
+                Git/Github
+              </span>
+            </li>
             <li>Heroku</li>
             <li>Netlify</li>
             <li>Command Line</li>

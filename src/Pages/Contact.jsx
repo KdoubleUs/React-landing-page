@@ -36,7 +36,7 @@ function Contact() {
                 <motion.input
                   type="text"
                   placeholder="insert your name"
-                  whileFocus={{ boxShadow: "3px 5px 0 rgba(255,245,10, 0.9)" }}
+                  whileFocus={{ boxShadow: "3px 5px 0 rgba(0,255,0, 0.9)" }}
                   initial={{ opacity: 0, x: -1000 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.2 }}
@@ -51,7 +51,7 @@ function Contact() {
                   type="text"
                   placeholder="insert your email"
                   whileFocus={{
-                    boxShadow: "3px 5px 0px rgba(255,245,10, 0.9)",
+                    boxShadow: "3px 5px 0px rgba(0,255,0, 0.9)",
                   }}
                   initial={{ opacity: 0, x: -1000 }}
                   animate={{ opacity: 1, x: 0 }}
@@ -66,7 +66,7 @@ function Contact() {
                 <motion.input
                   type="text"
                   whileFocus={{
-                    boxShadow: "3px 5px 0px rgba(255,245,10, 0.9)",
+                    boxShadow: "3px 5px 0px rgba(0,255,0, 0.9 )",
                   }}
                   initial={{ opacity: 0, x: -1000 }}
                   animate={{ opacity: 1, x: 0 }}
