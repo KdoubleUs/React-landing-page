@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import img from "/Users/kdoubleu/sei/projects/react-personal-profile/src/images/computer-programmer-icon-7.jpeg";
+import img from "/Users/kdoubleu/sei/projects/react-personal-profile/src/images/computer-programmer-icon-7-removebg-preview.png";
 export const Section = styled.section`
   height: 100vh;
   width: 100vw;

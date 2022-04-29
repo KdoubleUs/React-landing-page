@@ -34,7 +34,7 @@ function Social() {
         {<IoLogoTwitter />}
       </motion.a>
       <motion.a
-        href="#"
+        href="https://www.linkedin.com/in/kevinwunyc/"
         whileHover={{ scale: 1.2 }}
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}
@@ -45,7 +45,7 @@ function Social() {
         {<IoLogoLinkedin />}
       </motion.a>
       <motion.a
-        href="#"
+        href="https://www.instagram.com/KdoubleUs/"
         whileHover={{ scale: 1.2 }}
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}
@@ -56,7 +56,7 @@ function Social() {
         {<IoLogoInstagram />}
       </motion.a>
       <motion.a
-        href="#"
+        href="https://github.com/KdoubleUs"
         whileHover={{ scale: 1.2 }}
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}
@@ -67,7 +67,7 @@ function Social() {
         {<IoLogoGithub />}
       </motion.a>
       <motion.a
-        href="#"
+        href="mailto:kevinwuinbox@gmail.com"
         whileHover={{ scale: 1.2 }}
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}

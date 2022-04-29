@@ -117,7 +117,7 @@
 /* .big-Container {
   text-align: center;
 } */
-.experience ul {
+/* .experience ul {
   list-style: none;
 }
 .test {
@@ -181,7 +181,7 @@
 .tools {
   display: flex;
   flex-direction: column;
-}
+} */
 /* .tools {
   display: flex;
   flex-direction: row;
@@ -216,4 +216,24 @@
 }
 .submitbtn:hover {
   background-position: left bottom;
+}
+.setoftools {
+  display: flex;
+  position: relative;
+  width: 45em;
+  left: 50%;
+  transform: translateX(-50%);
+  flex-wrap: wrap;
+}
+.toolitem {
+  margin: 0 1em 0 1em;
+}
+.tools {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 50em;
+  height: auto;
 }
