@@ -3,7 +3,7 @@ import styled from "styled-components";
 // import img from "../images/react.svg";
 import SetOfImage from "../files/imageSet";
 import gear from "../images/gears2.png";
-
+import Tools from "../files/tools";
 // import Container from "../components/Project";
 const Container = styled.section`
   display: grid;
@@ -27,7 +27,7 @@ function Experience() {
       <Container className="big-Container">
         <div className="experience-text">
           <h3 id="et-1">SKILLS &amp; TOOLS</h3>
-          <h1 id="et-2">My set of skills and tools that I use to develop</h1>
+          <h1 id="et-2">My Set Of Skills And Tools That I Use To Develop</h1>
           <h3 id="et-3">Check out my aresenal of tools: </h3>
         </div>
         {/* <div className="development">
@@ -83,19 +83,14 @@ function Experience() {
         <div className="tools-section">
           <h1 className="tools-title"> "Tools"</h1>
           <ul className="tools">
-            <li>
-              <span>
-                <img src={gear} height={30} className="gear" />
-                Git/Github
-              </span>
-            </li>
-            <li>Heroku</li>
-            <li>Netlify</li>
-            <li>Command Line</li>
-            <li>Postman</li>
-            <li>Chrome DevTools</li>
-            <li>Firebase</li>
-            <li>AWS</li>
+            {Tools.map((items, index) => (
+              <li>
+                <span>
+                  <img src={gear} height={26} className="gear" />
+                  {items.name}
+                </span>
+              </li>
+            ))}
           </ul>
         </div>
       </Container>
