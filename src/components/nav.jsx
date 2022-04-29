@@ -11,9 +11,9 @@ const dropFromAbove = {
 };
 function Navigation() {
   return (
-    <Navbar bg="dark" expand="lg" className="navigation">
+    <Navbar bg="dark" expand="lg" className="navigation navbar-custom">
       <Container>
-        <Navbar.Brand href="/" text="white" className="home">
+        <Navbar.Brand href="/" text="black" className="home">
           Kevin Wu
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -4,18 +4,23 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+.navigation {
+  background-color: #000000;
+}
+.navbar-custom {
+  background-color: #283048 !important;
+}
 .app {
-  background: #283048; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    #859398,
-    #283048
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #859398,
-    #283048
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #000000;
+  background-image: linear-gradient(380deg, #0e141b 78%, #414141 74%);
+}
+.main-page {
+  background-color: #0e141b;
+  background-image: linear-gradient(340deg, #0e141b 45%, #414141 45%);
+}
+#contact {
+  background-color: #000000;
+  background-image: linear-gradient(160deg, hsl(0, 0%, 7%) 23%, #414141 53%);
 }
 .project-section {
   height: 100vh;
@@ -167,6 +172,7 @@
 }
 .tools-title {
   font-size: 2em;
+  color: white;
 }
 .tools {
   display: flex;
@@ -179,7 +185,7 @@
   color: white;
 }
 .gear {
-  border-radius: 100%;
+  margin-right: 0.3em;
 }
 .experience-text {
   margin: 1em 0 0 1em;
@@ -195,4 +201,10 @@
 #et-1 {
   word-spacing: 0.4em;
   letter-spacing: 0.2em;
+}
+
+#tool3,
+#tool10 {
+  background-color: white;
+  border-radius: 50%;
 }

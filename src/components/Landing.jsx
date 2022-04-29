@@ -41,7 +41,7 @@ const fadeFromBelow = {
 export default function Landing() {
   return (
     <Section>
-      <Container>
+      <Container className="main-page">
         <ColumnLeft>
           <motion.p
             className="top-head"

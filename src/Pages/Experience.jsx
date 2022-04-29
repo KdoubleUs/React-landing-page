@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 // import img from "../images/react.svg";
 import SetOfImage from "../files/imageSet";
-import gear from "../images/gears.png";
+import gear from "../images/gears2.png";
 
 // import Container from "../components/Project";
 const Container = styled.section`
@@ -75,6 +75,7 @@ function Experience() {
                 src={require("../files/icons/" + item.image + ".svg")}
                 height={75}
                 className="toolitem"
+                id={"tool" + item.number}
               />
             </div>
           ))}
