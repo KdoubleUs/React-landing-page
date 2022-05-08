@@ -26,17 +26,23 @@ function Project() {
             text="Full Crud Application of a restaurant App. Find New York City top spots
           to hangout, eat, or drink."
             tools="EXPRESSJS || NODEJS || MONGOOSE || MONGODB || FIREBASE || NETLIFY || HEROKU"
+            link="https://dazzling-profiterole-059d86.netlify.app/"
+            github=" https://github.com/KdoubleUs/Restaurant-CRUD-WebApp"
           ></Card>
           <Card
             title="Pokemon PokeDex Modal UI"
             text="Modal user interface application. Creating a library of the original 151 kanto pokemon from my childhood."
             tools="JAVASCRIPT || NODEJS || BOOTSTRAP|| REST-API"
+            link="https://relaxed-crostata-58c399.netlify.app/"
+            github="https://github.com/KdoubleUs/Pokemon-React-UI-Modal"
           ></Card>
           <Card
             title="Card War Game"
             text="A game of card war using vanilla javascript, css, and html. This game focuses on the fundamental of object-oriented programming, event-handling, and conditional rendering.
              A simple and fun game to play!"
             tools="JAVASCRIPT || HTML5 || CSS3"
+            link="https://6268832f3f323412d6823f47--phenomenal-sprite-26842f.netlify.app/"
+            github=" https://github.com/KdoubleUs/KW-Card-War-Game-M"
           ></Card>
           <Card
             title="LinkedFin (IN-PROGRESS)"
