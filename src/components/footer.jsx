@@ -1,7 +1,7 @@
 import React from "react";
 
-function footer() {
-  return <div>2022 Copyright NYC Created </div>;
+function Footer() {
+  return <h1 className="footer">2022 NYC Created BY KEVIN WU </h1>;
 }
 
-export default footer;
+export default Footer;

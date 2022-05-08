@@ -35,6 +35,7 @@ function Social() {
       </motion.a>
       <motion.a
         href="https://www.linkedin.com/in/kevinwunyc/"
+        target={"_blank"}
         whileHover={{ scale: 1.2, color: "#0077b5" }}
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}
@@ -46,6 +47,7 @@ function Social() {
       </motion.a>
       <motion.a
         href="https://www.instagram.com/KdoubleUs/"
+        target={"_blank"}
         whileHover={{ scale: 1.2, color: "#cd201f" }}
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}
@@ -57,6 +59,7 @@ function Social() {
       </motion.a>
       <motion.a
         href="https://github.com/KdoubleUs"
+        target={"_blank"}
         whileHover={{ scale: 1.2, color: "#e4405f" }}
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}
@@ -68,6 +71,7 @@ function Social() {
       </motion.a>
       <motion.a
         href="mailto:kevinwuinbox@gmail.com"
+        target={"_blank"}
         whileHover={{ scale: 1.2, color: "#0077b5" }}
         variants={fadeFromLeft}
         inital={{ opacity: 0 }}

@@ -140,6 +140,18 @@
   justify-content: flex-start;
   justify-items: flex-start;
 }
+.footer {
+  position: relative;
+  bottom: 0;
+  justify-content: flex-end;
+  margin-top: auto;
+  padding: 0;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  font-style: italic;
+  color: antiquewhite;
+}
 .inputs {
   margin: 1em;
 }
@@ -227,9 +239,79 @@
 }
 
 .contact-title {
+  margin-top: 5em;
   font-weight: 700;
 }
 .label {
   font-weight: 900;
   color: bisque;
+}
+
+/*page circle*/
+.circle-trackers {
+  position: fixed;
+  height: 1em;
+  width: 1em;
+  right: 0;
+  top: 30%;
+  margin-right: 1em;
+}
+.page-circle {
+  z-index: 5;
+  height: 1em;
+  width: 1em;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+/* MOBILE MEDIA QUERIES*/
+@media (max-width: 390px) {
+  .app {
+    width: 100vw;
+  }
+  .landing-section {
+    width: 100vw;
+  }
+  .hero {
+    height: 10em;
+    width: 10em;
+    margin-right: 4em;
+  }
+  .top-head {
+    font-size: 1.2em;
+  }
+  .name-title {
+    font-size: 3em;
+  }
+  .bottom-head {
+    font-size: 1em;
+  }
+  .social-svg {
+    font-size: 1.6em;
+    margin-top: 1em;
+  }
+  .social-links {
+    position: fixed;
+  }
+  .card-container {
+    height: 2em;
+    width: auto;
+  }
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    width: 10em;
+    height: auto;
+    flex-wrap: nowrap;
+  }
+  .project-section {
+    width: 100vw;
+    height: 100%;
+  }
+  #project {
+    height: 100vh;
+    width: 100vw;
+  }
 }

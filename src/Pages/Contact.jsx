@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import Footer from "../components/footer";
 
 const Section = styled.section`
   height: 100vh;
@@ -90,6 +91,7 @@ function Contact() {
             </motion.button>
           </table>
         </form>
+        <Footer />
       </Container>
     </Section>
   );

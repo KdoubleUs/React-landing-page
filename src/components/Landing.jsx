@@ -9,11 +9,11 @@ export const Section = styled.section`
   justify-content: center;
 `;
 const Container = styled.section`
-display:grid; 
-grid-template-columns: 1fr 1fr; 
-height:100vh; 
-padding: 3rem calc((100vw-1300px) / 2) @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  // padding: 3rem calc((100vw-1300px) / 2) @media screen and (max-width: 768px) {
+  //     grid-template-columns: 1fr;
 `;
 const ColumnLeft = styled.div`
   display: flex;
@@ -40,7 +40,7 @@ const fadeFromBelow = {
 };
 export default function Landing() {
   return (
-    <Section>
+    <Section className="landing-section">
       <Container className="main-page">
         <ColumnLeft>
           <motion.p
