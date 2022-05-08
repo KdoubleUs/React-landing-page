@@ -265,7 +265,16 @@
   margin-top: 2em;
   cursor: pointer;
 }
-
+.personal-img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+  width: 20em;
+  /* border-radius: 5px; */
+  margin-left: 6em;
+  box-shadow: 8px 6px 1px bisque;
+}
 /* MOBILE MEDIA QUERIES*/
 @media (max-width: 390px) {
   .app {
