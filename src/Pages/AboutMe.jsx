@@ -41,7 +41,7 @@ function AboutMe() {
               I love to build projects for the webs. I graduated from John Jay
               College with a degree in Forensic Chemistry and minor in
               psychology. I transition to software development when I was first
-              introuduce to HTML5 and CSS3. I instantly fell in love with the
+              introduce to HTML5 and CSS3. I instantly fell in love with the
               freedom, creativity, and the ability to control what i do and
               create. I knew right away that coding was a career path i want to
               take. I love the complexity and challenges that coding present.

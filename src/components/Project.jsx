@@ -53,7 +53,9 @@ function Project() {
           <Card
             title="Cross-Road Game"
             text="A fun little vanilla javascript game where I used 2D-collision and event handling to make a block version of frogger"
-            tools="NA "
+            link="NA"
+            github="https://github.com/KdoubleUs/Crossing-Game"
+            tools="Javascript || HTML5 || CSS3 || NETLIFY "
           ></Card>
           <Card title="IN-PROGRESS" text="NA" tools="NA"></Card>
         </Container>
