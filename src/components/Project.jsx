@@ -46,6 +46,7 @@ function Project() {
           ></Card>
           <Card
             title="LinkedFin"
+            link="https://linkedfinkw.netlify.app/"
             text="Full Crud Application of a restaurant App. Find New York City top spots
           to hangout, eat, or drink."
             tools="PYTHON3 || DJANGO || REACTJS || JAVASCRIPT || HEROKU || NETLIFY "
@@ -53,11 +54,11 @@ function Project() {
           <Card
             title="Cross-Road Game"
             text="A fun little vanilla javascript game where I used 2D-collision and event handling to make a block version of frogger"
-            link="NA"
+            link="https://crossroadkw.netlify.app/"
             github="https://github.com/KdoubleUs/Crossing-Game"
             tools="Javascript || HTML5 || CSS3 || NETLIFY "
           ></Card>
-          <Card title="IN-PROGRESS" text="NA" tools="NA"></Card>
+          <Card title="PROJECT" text="IN-PROGRESS" tools="NA"></Card>
         </Container>
       </Section>
     </div>
