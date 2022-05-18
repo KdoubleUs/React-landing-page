@@ -29,8 +29,8 @@ const ColumnRight = styled.div`
 function AboutMe() {
   return (
     <Section id="about">
-      <Container>
-        <ColumnLeft>
+      <Container className="aboutme-container">
+        <ColumnLeft className="left-column-aboutme">
           <h1 className="aboutme-title">Who Am I? </h1>
           <div>
             <p>
@@ -58,7 +58,7 @@ function AboutMe() {
             </p>
           </div>
         </ColumnLeft>
-        <ColumnRight>
+        <ColumnRight className="column-right-aboutme">
           <img src={personalImg} className="personal-img" alt="none" />
         </ColumnRight>
       </Container>
