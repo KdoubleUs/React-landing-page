@@ -413,15 +413,51 @@
     flex-direction: column-reverse;
     justify-content: space-evenly;
     margin-right: 22px;
-    width: 85%;
+    width: 100% !important;
   }
   .aboutme-container p {
     font-size: 13px;
   }
   .personal-img {
     width: 10em;
+    transform: none;
+    top: auto;
+    margin-top: 35px;
+    margin-left: 18px;
   }
   .left-column-aboutme {
     margin: 20px 0 10em 4em;
+  }
+  .column-right-aboutme {
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-form {
+    width: 100px;
+  }
+  .contact-container {
+    text-align: center;
+    width: 80vw !important;
+  }
+  #contact p {
+    text-align: center;
+    color: bisque;
+  }
+  .td {
+    width: 10px;
+  }
+  #message-input {
+    display: flex;
+    align-items: center;
+  }
+  .contact-form-table {
+    left: 105%;
+    position: relative;
+  }
+  #contact-text {
+    font-size: 14px;
+  }
+  .contact-title {
+    letter-spacing: 5px;
   }
 }

@@ -22,16 +22,16 @@ const Container = styled.section`
 function Contact() {
   return (
     <Section id="contact">
-      <Container>
+      <Container className="contact-container">
         <h1 className="contact-title"> Lets Connect </h1>
-        <p>
+        <p id="contact-text">
           Click on one of the social links on the side of the page to connect to
           one of my media pages. Feel free to send me an email about anything. I
           love to meet new people and make new friends! Lets Connect
         </p>
         <form className="contact-form">
-          <table className="contact-form">
-            <tr>
+          <table className="contact-form-table">
+            <tr className="tr">
               <td align="">
                 <span className="label"> Name:</span>
                 <motion.input
@@ -45,7 +45,7 @@ function Contact() {
                 />
               </td>
             </tr>
-            <tr>
+            <tr className="tr">
               <td align="">
                 <span className="label"> Email:</span>
                 <motion.input
@@ -62,7 +62,7 @@ function Contact() {
               </td>
             </tr>
             <tr>
-              <td align="" className="label">
+              <td align="" className="label" id="message-input">
                 <span className="label"> Message:</span>
                 <motion.input
                   type="text"
