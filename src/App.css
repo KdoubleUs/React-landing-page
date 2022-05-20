@@ -500,4 +500,21 @@ h1 span span {
   .contact-title {
     letter-spacing: 5px;
   }
+  .name-title {
+    font-size: 30px;
+  }
+  .bottom-head {
+    font-size: 18px;
+  }
+  .main-page {
+    display: flex !important;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+  }
+  .sc-hKMtZM .kMrmvT {
+    background-color: white;
+    border-radius: 9%;
+  }
 }
