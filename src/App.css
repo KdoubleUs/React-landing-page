@@ -492,7 +492,6 @@ h1 span span {
     align-items: center;
   }
   .contact-form-table {
-    left: 105%;
     position: relative;
   }
   #contact-text {
@@ -515,7 +514,7 @@ h1 span span {
     justify-content: center;
   }
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) and (max-width: 1000px) {
   .app {
     width: 100vw;
     overflow-x: hidden;
