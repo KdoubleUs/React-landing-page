@@ -26,8 +26,15 @@ function Project() {
             text="Full Crud Application of a restaurant App. Find New York City top spots
           to hangout, eat, or drink."
             tools="EXPRESSJS || NODEJS || MONGOOSE || MONGODB || FIREBASE || NETLIFY || HEROKU"
-            link="https://wheretonyc.netlify.app "
+            link="https://wheretony.netlify.app"
             github=" https://github.com/KdoubleUs/Restaurant-CRUD-WebApp"
+          ></Card>
+          <Card
+            title="LinkedFin"
+            link="https://linkedfinkw.netlify.app/"
+            text="Full Crud Application of a restaurant App. Find New York City top spots
+            to hangout, eat, or drink."
+            tools="PYTHON3 || DJANGO || REACTJS || JAVASCRIPT || HEROKU || NETLIFY "
           ></Card>
           <Card
             title="Pokemon PokeDex Modal UI"
@@ -37,26 +44,19 @@ function Project() {
             github="https://github.com/KdoubleUs/Pokemon-React-UI-Modal"
           ></Card>
           <Card
+            title="Cross-Road Game"
+            text="A fun little vanilla javascript game where I used 2D-collision and event handling to make a block version of frogger"
+            link="https://crossroadkw.netlify.app/"
+            github="https://github.com/KdoubleUs/Crossing-Game"
+            tools="Javascript || HTML5 || CSS3 || NETLIFY "
+          ></Card>
+          <Card
             title="Card War Game"
             text="A game of card war using vanilla javascript, css, and html. This game focuses on the fundamental of object-oriented programming, event-handling, and conditional rendering.
              A simple and fun game to play!"
             tools="JAVASCRIPT || HTML5 || CSS3"
             link="https://cardwarbattles.netlify.app"
             github=" https://github.com/KdoubleUs/KW-Card-War-Game-M"
-          ></Card>
-          <Card
-            title="LinkedFin"
-            link="https://linkedfinkw.netlify.app/"
-            text="Full Crud Application of a restaurant App. Find New York City top spots
-          to hangout, eat, or drink."
-            tools="PYTHON3 || DJANGO || REACTJS || JAVASCRIPT || HEROKU || NETLIFY "
-          ></Card>
-          <Card
-            title="Cross-Road Game"
-            text="A fun little vanilla javascript game where I used 2D-collision and event handling to make a block version of frogger"
-            link="https://crossroadkw.netlify.app/"
-            github="https://github.com/KdoubleUs/Crossing-Game"
-            tools="Javascript || HTML5 || CSS3 || NETLIFY "
           ></Card>
           <Card title="PROJECT" text="IN-PROGRESS" tools="NA"></Card>
         </Container>

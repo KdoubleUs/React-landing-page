@@ -67,9 +67,9 @@
   font-weight: 500;
 }
 .name-title {
-  font-size: 4em;
   font-weight: 700;
   color: white;
+  font-size: 2em;
 }
 .aboutme-title {
   font-weight: 700;
@@ -297,6 +297,51 @@
   margin-top: 10px;
   margin: 10px;
 }
+/*title animation*/
+/* h1 span span {
+  color: pink;
+} */
+/* h1 span span:nth-child(2n) {
+  color: #ffa500;
+} */
+/* h1 span span {
+  animation: move-text-color 0.75s forwards;
+} */
+h1 span span {
+  position: relative;
+  opacity: 0;
+  animation: move-text-color 1s forwards, move-color 2s infinite;
+}
+
+@keyframes move-text-color {
+  0% {
+    bottom: -0.2em;
+    opacity: 1;
+    color: rgb(236, 255, 212);
+  }
+  50% {
+    bottom: 0.2em;
+    color: rgb(194, 252, 122);
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+@keyframes move-color {
+  0% {
+    color: rgb(236, 255, 212);
+  }
+  50% {
+    color: rgb(194, 252, 122);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* #name {
+  font-size: 0.2em;
+} */
 /* MOBILE MEDIA QUERIES*/
 @media (max-width: 390px) {
   .app {

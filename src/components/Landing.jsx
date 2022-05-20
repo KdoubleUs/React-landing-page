@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import img from "../images/computer-programmer-icon-7-removebg-preview.png";
+import Title from "./Title";
 export const Section = styled.section`
   height: 100vh;
   width: 100vw;
@@ -59,8 +60,21 @@ export default function Landing() {
             animate="visible"
             transition={{ duration: 1.2 }}
           >
-            Kevin Wu.
+            <Title copy={"Kevin Wu"} role={"heading"} />
+
+            {/* <span className="text-title">
+              <span>K</span>
+              <span>e</span>
+              <span>v</span>
+              <span>i</span>
+              <span>n</span>
+
+              <span>W</span>
+              <span>u</span>
+              <span>.</span>
+            </span> */}
           </motion.h1>
+
           <motion.p
             className="bottom-head"
             variants={fadeFromBelow}
