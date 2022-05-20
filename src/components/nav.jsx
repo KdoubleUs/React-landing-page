@@ -31,7 +31,7 @@ function Navigation() {
             <Nav.Link href="#contact" className="navA">
               Contact
             </Nav.Link>
-            <Nav.Link href={resume} className="navA" download={resume}>
+            <Nav.Link href={resume} className="navA" target="_blank">
               Resume
             </Nav.Link>
           </Nav>
