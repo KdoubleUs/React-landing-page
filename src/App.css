@@ -512,6 +512,8 @@ h1 span span {
     justify-content: flex-end;
     align-items: center;
     justify-content: center;
+    background-color: #0e141b;
+    background-image: linear-gradient(157deg, #0e141b 34%, #414141 34%);
   }
 }
 @media (min-width: 600px) and (max-width: 1000px) {
@@ -703,6 +705,8 @@ h1 span span {
     justify-content: flex-end;
     align-items: center;
     justify-content: center;
+    background-color: #0e141b;
+    background-image: linear-gradient(157deg, #0e141b 34%, #414141 34%);
   }
   .tools-title {
     margin: 0;
