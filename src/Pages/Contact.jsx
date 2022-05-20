@@ -29,70 +29,68 @@ function Contact() {
           one of my media pages. Feel free to send me an email about anything. I
           love to meet new people and make new friends! Lets Connect
         </p>
-        <form className="contact-form">
-          <table className="contact-form-table">
-            <tr className="tr">
-              <td align="">
-                <span className="label"> Name:</span>
-                <motion.input
-                  type="text"
-                  placeholder="insert your name"
-                  whileFocus={{
-                    boxShadow: "3px 5px 0 rgb(101, 247, 191)",
-                  }}
-                  initial={{ opacity: 0, x: -1000 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.2 }}
-                  className="inputs"
-                />
-              </td>
-            </tr>
-            <tr className="tr">
-              <td align="">
-                <span className="label"> Email:</span>
-                <motion.input
-                  type="text"
-                  placeholder="insert your email"
-                  whileFocus={{
-                    boxShadow: "3px 5px 0px rgb(101, 247, 191)",
-                  }}
-                  initial={{ opacity: 0, x: -1000 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.2 }}
-                  className="inputs"
-                />
-              </td>
-            </tr>
-            <tr>
-              <td align="" className="label" id="message-input">
-                <span className="label"> Message:</span>
-                <motion.input
-                  type="text"
-                  whileFocus={{
-                    boxShadow: "3px 5px 0px rgb(101, 247, 191)",
-                  }}
-                  initial={{ opacity: 0, x: -1000 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.2 }}
-                  className="inputs"
-                />
-              </td>
-            </tr>
+        <table className="contact-form-table">
+          <tr className="tr">
+            <td align="">
+              <span className="label"> Name:</span>
+              <motion.input
+                type="text"
+                placeholder="insert your name"
+                whileFocus={{
+                  boxShadow: "3px 5px 0 rgb(101, 247, 191)",
+                }}
+                initial={{ opacity: 0, x: -1000 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.2 }}
+                className="inputs"
+              />
+            </td>
+          </tr>
+          <tr className="tr">
+            <td align="">
+              <span className="label"> Email:</span>
+              <motion.input
+                type="text"
+                placeholder="insert your email"
+                whileFocus={{
+                  boxShadow: "3px 5px 0px rgb(101, 247, 191)",
+                }}
+                initial={{ opacity: 0, x: -1000 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.2 }}
+                className="inputs"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td align="" className="label" id="message-input">
+              <span className="label"> Message:</span>
+              <motion.input
+                type="text"
+                whileFocus={{
+                  boxShadow: "3px 5px 0px rgb(101, 247, 191)",
+                }}
+                initial={{ opacity: 0, x: -1000 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.2 }}
+                className="inputs"
+              />
+            </td>
+          </tr>
 
-            <motion.button
-              type="submit"
-              className="submitbtn"
-              whileHover={{
-                scale: 1.05,
-              }}
-              initial="none"
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.1 }}
-            >
-              Submit
-            </motion.button>
-          </table>
-        </form>
+          <motion.button
+            type="submit"
+            className="submitbtn"
+            whileHover={{
+              scale: 1.05,
+            }}
+            initial="none"
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.1 }}
+          >
+            Submit
+          </motion.button>
+        </table>
         <Footer />
       </Container>
     </Section>

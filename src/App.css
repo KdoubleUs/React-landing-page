@@ -13,6 +13,7 @@
 .app {
   background-color: #000000;
   background-image: linear-gradient(380deg, #0e141b 78%, #414141 74%);
+  overflow-x: hidden;
 }
 .main-page {
   background-color: #0e141b;
@@ -513,8 +514,194 @@ h1 span span {
     align-items: center;
     justify-content: center;
   }
-  .sc-hKMtZM .kMrmvT {
-    background-color: white;
-    border-radius: 9%;
+}
+@media (max-width: 600px) {
+  .app {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  .landing-section {
+    width: 100vw;
+  }
+  .hero {
+    height: 18em;
+    width: 18em;
+    margin-right: 4em;
+  }
+  .top-head {
+    font-size: 3.2em;
+  }
+  .name-title {
+    font-size: 70px;
+  }
+
+  .social-svg {
+    font-size: 1.6em;
+    margin-top: 1em;
+  }
+  .social-links {
+    position: fixed;
+  }
+  .card-container {
+    height: 2em;
+    width: auto;
+  }
+  .project-container {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 10em;
+    height: auto;
+    flex-wrap: nowrap;
+  }
+  .project-section {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+  }
+  #project {
+    height: 100vh;
+    width: 100vw;
+  }
+  .card-container {
+    height: 150px;
+  }
+  /*Project section*/
+  .card-title {
+    font-size: 14px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .card-tool {
+    font-size: 10px;
+  }
+
+  .rescroll {
+    display: none;
+  }
+
+  /*experience section*/
+  .experience-text {
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    margin: 0;
+    margin-top: 5em;
+  }
+  #et-1 {
+    font-size: 43px;
+  }
+  #et-2 {
+    font-size: 25px;
+  }
+  #et-3 {
+    font-size: 23px;
+  }
+  .toolitem {
+    height: 80px;
+  }
+  .setoftools {
+    width: 400px;
+    left: 25%;
+    transform: none;
+  }
+  .tools-title {
+    position: relative;
+    text-align: center;
+    margin-right: 5em;
+  }
+  .tools {
+    margin-right: 10em;
+    width: 389px;
+    height: 100px;
+  }
+  /*ABOUT ME SECTION*/
+
+  #about {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .aboutme-container {
+    display: flex !important;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    margin-right: 22px;
+    width: 100% !important;
+  }
+  .aboutme-container p {
+    font-size: 20px;
+  }
+  .personal-img {
+    width: 17em;
+    transform: none;
+    top: auto;
+    margin-top: 35px;
+    margin-left: 18px;
+  }
+  .left-column-aboutme {
+    margin: 20px 0 10em 4em;
+  }
+  .column-right-aboutme {
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-form {
+    width: 100px;
+  }
+  .contact-container {
+    text-align: center;
+    width: 80vw !important;
+  }
+  #contact p {
+    text-align: center;
+    color: bisque;
+  }
+  .td {
+    width: 10px;
+  }
+  #message-input {
+    align-items: center;
+  }
+  .contact-form-table {
+    position: relative;
+  }
+  #contact-text {
+    font-size: 25px;
+  }
+  td {
+    font-size: 1.5em;
+  }
+  .submitbtn {
+    width: 20em;
+  }
+  .contact-title {
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+  .name-title {
+    font-size: 70px;
+  }
+  .bottom-head {
+    font-size: 28px;
+  }
+  .social-svg {
+    font-size: 2.5em;
+  }
+  .main-page {
+    display: flex !important;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+  }
+  .tools-title {
+    margin: 0;
+    font-size: 2em;
+  }
+  .tools {
+    margin: 0;
+    width: 560px;
   }
 }
