@@ -160,11 +160,7 @@
   border-radius: 4px;
   padding: 0.4em;
   margin: 1em;
-  background: linear-gradient(
-    to right,
-    rgba(106, 254, 106, 0.9) 50%,
-    white 50%
-  );
+  background: linear-gradient(to right, rgb(101, 247, 191) 50%, white 50%);
 
   background-size: 200% 100%;
   background-position: right bottom;
@@ -173,9 +169,9 @@
 }
 .submitbtn:hover {
   background-position: left bottom;
-  color: blue;
+  color: rgb(28, 28, 30);
   font-weight: 700;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.15em;
 }
 .setoftools {
   display: flex;
@@ -317,11 +313,9 @@ h1 span span {
   0% {
     bottom: -0.2em;
     opacity: 1;
-    color: rgb(236, 255, 212);
   }
   50% {
     bottom: 0.2em;
-    color: rgb(194, 252, 122);
   }
   100% {
     bottom: 0;
@@ -330,10 +324,11 @@ h1 span span {
 }
 @keyframes move-color {
   0% {
-    color: rgb(236, 255, 212);
+    opacity: 1;
+    color: rgb(146, 241, 205);
   }
   50% {
-    color: rgb(194, 252, 122);
+    color: rgb(101, 247, 191);
   }
   100% {
     opacity: 1;
