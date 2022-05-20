@@ -674,6 +674,15 @@ h1 span span {
   }
   .submitbtn {
     width: 20em;
+    border-radius: 4px;
+    padding: 0.4em;
+    margin: 1em;
+    background: linear-gradient(to right, rgb(101, 247, 191) 50%, white 50%);
+
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.2s ease-out;
+    letter-spacing: 0.1em;
   }
   .contact-title {
     font-size: 50px;
