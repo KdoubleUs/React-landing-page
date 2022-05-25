@@ -1,0 +1,18 @@
+/*page circle*/
+.circle-trackers {
+  position: fixed;
+  height: 1em;
+  width: 1em;
+  right: 0;
+  top: 30%;
+  margin-right: 1em;
+}
+.page-circle {
+  z-index: 5;
+  height: 1em;
+  width: 1em;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 2em;
+  cursor: pointer;
+}

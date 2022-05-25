@@ -1,0 +1,27 @@
+.navigation {
+  background-color: #000000;
+}
+.navbar-custom {
+  background-color: #283048 !important;
+}
+.navbar-brand {
+  color: white !important;
+}
+.navA {
+  color: white !important;
+}
+.navA:hover {
+  background-color: bisque;
+  color: black !important;
+}
+.navbar-toggler-icon {
+  background-color: white !important;
+}
+.navigation::before {
+  opacity: 0 !important;
+  top: -100 !important;
+}
+.navigation::after {
+  opacity: 1 !important;
+  top: 0 !important;
+}

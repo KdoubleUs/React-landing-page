@@ -2,7 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import img from "../images/computer-programmer-icon-7-removebg-preview.png";
-import Title from "./Title";
+import Title from "../components/Title";
+import "../style/landing.css";
 export const Section = styled.section`
   height: 100vh;
   width: 100vw;

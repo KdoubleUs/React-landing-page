@@ -1,0 +1,60 @@
+.top-head {
+  font-size: 1.8em;
+  color: bisque;
+  font-weight: 500;
+}
+.name-title {
+  font-weight: 700;
+  color: white;
+  font-size: 2em;
+}
+.aboutme-title {
+  font-weight: 700;
+}
+.bottom-head {
+  font-size: 1.2em;
+
+  color: bisque;
+  font-weight: 500;
+}
+.hero {
+  margin: 0 0 0 4em;
+}
+.prj-title {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  padding-top: 0.5em;
+}
+h1 span span {
+  position: relative;
+  opacity: 0;
+  animation: move-text-color 1s forwards, move-color 2s infinite;
+}
+
+@keyframes move-text-color {
+  0% {
+    bottom: -0.2em;
+    opacity: 1;
+  }
+  50% {
+    bottom: 0.2em;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+@keyframes move-color {
+  0% {
+    opacity: 1;
+    color: rgb(146, 241, 205);
+  }
+  50% {
+    color: rgb(101, 247, 191);
+  }
+  100% {
+    opacity: 1;
+  }
+}

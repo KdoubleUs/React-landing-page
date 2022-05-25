@@ -1,0 +1,69 @@
+.setoftools {
+  display: flex;
+  position: relative;
+  width: 65em;
+  left: 50%;
+  transform: translateX(-43%);
+  flex-wrap: wrap;
+}
+.toolitem {
+  margin: 0 2em 0 2em;
+}
+.tools-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tools-title {
+  font-size: 1.3em;
+  color: white;
+  letter-spacing: 0.15em;
+  margin-top: 1em;
+  margin-bottom: 0.7em;
+  color: bisque;
+}
+.tools {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 50em;
+  height: 5em;
+  color: white;
+}
+.gear {
+  margin-right: 0.3em;
+}
+.experience-text {
+  margin: 3em 0 0 3em;
+  color: white;
+}
+#et-2 {
+  font-size: 2em;
+  color: bisque;
+}
+#et-1,
+#et-3 {
+  font-size: 1.5em;
+}
+#et-1 {
+  word-spacing: 0.4em;
+  letter-spacing: 0.2em;
+}
+
+#tool3,
+#tool10 {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.contact-title {
+  margin-top: 5em;
+  font-weight: 700;
+}
+.label {
+  font-weight: 900;
+  color: bisque;
+}

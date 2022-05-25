@@ -4,7 +4,7 @@ import { Nav, NavDropdown, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { motion } from "framer-motion";
 import resume from "../files/kevinwusenyc.pdf";
-
+import "../style/navbar.css";
 const dropFromAbove = {
   hidden: { opacity: 0, y: 50 },
   visible: { opacity: 1, y: 0 },

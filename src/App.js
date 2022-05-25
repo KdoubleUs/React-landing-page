@@ -1,8 +1,8 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/nav";
-import Landing from "./components/Landing";
-import Project from "./components/Project";
+import Landing from "./Pages/Landing";
+import Project from "./Pages/Project";
 import Social from "./components/social";
 import Experience from "./Pages/Experience";
 import AboutMe from "./Pages/AboutMe";

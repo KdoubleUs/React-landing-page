@@ -4,6 +4,7 @@ import styled from "styled-components";
 import SetOfImage from "../files/imageSet";
 import gear from "../images/gears2.png";
 import Tools from "../files/tools";
+import "../style/tools.css";
 // import Container from "../components/Project";
 const Container = styled.section`
   display: grid;

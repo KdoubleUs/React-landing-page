@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import Footer from "../components/footer";
-
+import "../style/contact.css";
 const Section = styled.section`
   height: 100vh;
   width: 100vw;

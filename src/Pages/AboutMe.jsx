@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import personalImg from "../images/personal-image.jpg";
+import "../style/about.css";
 const Section = styled.section`
   height: 100vh;
   width: 100vw;
