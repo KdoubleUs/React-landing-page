@@ -516,7 +516,8 @@ h1 span span {
     background-image: linear-gradient(157deg, #0e141b 34%, #414141 34%);
   }
 }
-@media (min-width: 600px) and (max-width: 1000px) {
+
+@media only screen and (min-width: 414px) and (max-height: 926px) and (max-width: 500px) {
   .app {
     width: 100vw;
     overflow-x: hidden;
@@ -525,17 +526,19 @@ h1 span span {
     width: 100vw;
   }
   .hero {
-    height: 18em;
-    width: 18em;
+    height: 14em;
+    width: 14em;
     margin-right: 4em;
   }
   .top-head {
-    font-size: 3.2em;
+    font-size: 1.2em;
   }
   .name-title {
-    font-size: 70px;
+    font-size: 3em;
   }
-
+  .bottom-head {
+    font-size: 1em;
+  }
   .social-svg {
     font-size: 1.6em;
     margin-top: 1em;
@@ -592,20 +595,20 @@ h1 span span {
     margin-top: 5em;
   }
   #et-1 {
-    font-size: 43px;
+    font-size: 10px;
   }
   #et-2 {
-    font-size: 25px;
+    font-size: 15px;
   }
   #et-3 {
-    font-size: 23px;
+    font-size: 10px;
   }
   .toolitem {
-    height: 80px;
+    height: 40px;
   }
   .setoftools {
     width: 400px;
-    left: 25%;
+    left: 8%;
     transform: none;
   }
   .tools-title {
@@ -632,10 +635,10 @@ h1 span span {
     width: 100% !important;
   }
   .aboutme-container p {
-    font-size: 20px;
+    font-size: 13px;
   }
   .personal-img {
-    width: 17em;
+    width: 10em;
     transform: none;
     top: auto;
     margin-top: 35px;
@@ -663,41 +666,23 @@ h1 span span {
     width: 10px;
   }
   #message-input {
+    display: flex;
     align-items: center;
   }
   .contact-form-table {
     position: relative;
   }
   #contact-text {
-    font-size: 25px;
-  }
-  td {
-    font-size: 1.5em;
-  }
-  .submitbtn {
-    width: 20em;
-    border-radius: 4px;
-    padding: 0.4em;
-    margin: 1em;
-    background: linear-gradient(to right, rgb(101, 247, 191) 50%, white 50%);
-
-    background-size: 200% 100%;
-    background-position: right bottom;
-    transition: all 0.2s ease-out;
-    letter-spacing: 0.1em;
+    font-size: 14px;
   }
   .contact-title {
-    font-size: 50px;
     letter-spacing: 5px;
   }
   .name-title {
-    font-size: 70px;
+    font-size: 30px;
   }
   .bottom-head {
-    font-size: 28px;
-  }
-  .social-svg {
-    font-size: 2.5em;
+    font-size: 18px;
   }
   .main-page {
     display: flex !important;
@@ -708,12 +693,30 @@ h1 span span {
     background-color: #0e141b;
     background-image: linear-gradient(157deg, #0e141b 34%, #414141 34%);
   }
-  .tools-title {
-    margin: 0;
-    font-size: 2em;
+}
+
+@media only screen and (min-width: 890px) and (max-height: 446px) and (max-width: 1000px) and (orientation: landscape) {
+  .hero {
+    height: 17em;
+    width: 18em;
+    margin: 0px 0 5em 7em;
   }
-  .tools {
-    margin: 0;
-    width: 560px;
+  .name-title {
+    font-size: 1.3em;
+  }
+  .bottom-head {
+    font-size: 1em;
+  }
+  .top-head {
+    font-size: 1em;
+  }
+  .left-text {
+    margin-top: 4em;
+  }
+  .social-links {
+    top: 7em;
+  }
+  .project-container {
+    height: 100%;
   }
 }

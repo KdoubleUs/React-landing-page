@@ -43,7 +43,7 @@ export default function Landing() {
   return (
     <Section className="landing-section" id="homepage">
       <Container className="main-page">
-        <ColumnLeft>
+        <ColumnLeft className="left-text">
           <motion.p
             className="top-head"
             variants={fadeFromBelow}
