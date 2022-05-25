@@ -719,4 +719,115 @@ h1 span span {
   .project-container {
     height: 100%;
   }
+  .project-section {
+    height: 100%;
+  }
+  #project {
+    height: 100%;
+  }
+  .big-Container {
+    margin-top: 10em !important;
+  }
+  #et-1 {
+    font-size: 15px;
+  }
+  #et-2 {
+    font-size: 20px;
+  }
+  #et-3 {
+    font-size: 15px;
+  }
+  .toolitem {
+    height: 60px;
+  }
+  .setoftools {
+    width: 800px;
+    /* left: 8%;
+    transform: none; */
+  }
+  .tools-title {
+    position: relative;
+    text-align: center;
+  }
+  .personal-img {
+    width: 13em;
+    height: auto;
+  }
+  p {
+    font-size: 11px;
+  }
+  .contact-title {
+    margin: 0;
+  }
+  .left-column-aboutme {
+    width: 26em;
+  }
+}
+@media only screen and (min-width: 800px) and (max-height: 446px) and (max-width: 830px) and (orientation: landscape) {
+  .hero {
+    height: 17em;
+    width: 18em;
+    margin: 0px 0 5em 7em;
+  }
+  .name-title {
+    font-size: 1.3em;
+  }
+  .bottom-head {
+    font-size: 1em;
+  }
+  .top-head {
+    font-size: 1em;
+  }
+  .left-text {
+    margin-top: 4em !important;
+  }
+  .social-links {
+    top: 7em;
+  }
+  .project-container {
+    height: 100%;
+  }
+  .project-section {
+    height: 100%;
+  }
+  #project {
+    height: 100%;
+  }
+  .big-Container {
+    margin-top: 10em !important;
+  }
+  #et-1 {
+    font-size: 15px;
+  }
+  #et-2 {
+    font-size: 20px;
+  }
+  #et-3 {
+    font-size: 15px;
+  }
+  .toolitem {
+    height: 60px;
+  }
+  .setoftools {
+    width: 800px;
+    /* left: 8%;
+    transform: none; */
+  }
+  .tools-title {
+    position: relative;
+    text-align: center;
+  }
+  .personal-img {
+    width: 13em;
+    height: auto;
+  }
+  p {
+    font-size: 11px;
+  }
+  .contact-title {
+    margin: 0;
+  }
+  .left-column-aboutme {
+    width: 21em;
+  }
 }
