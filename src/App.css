@@ -76,7 +76,7 @@
   .hero {
     height: 15em;
     width: 15em;
-    margin: 11em 0 0 4em !important;
+    margin: 11em 0 0 2em !important;
   }
   .top-head {
     font-size: 1.2em;
@@ -193,8 +193,8 @@
     width: 10em !important;
     transform: none !important;
     top: auto !important;
-    margin-top: 35px !important;
-    margin-left: 18px !important;
+    margin-top: 15em !important;
+    margin-left: 45px !important;
   }
   .left-column-aboutme {
     margin: 20px 0 10em 4em;
@@ -220,7 +220,7 @@
   #message-input {
     display: flex;
     align-items: center;
-    margin-left: 1.2em;
+    margin-left: 0.2em;
   }
   .contact-form-table {
     position: relative;
