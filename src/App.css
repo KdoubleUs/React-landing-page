@@ -74,18 +74,22 @@
     width: 100vw;
   }
   .hero {
-    height: 10em;
-    width: 10em;
-    margin-right: 4em;
+    height: 15em;
+    width: 15em;
+    margin: 11em 0 0 4em !important;
   }
   .top-head {
     font-size: 1.2em;
+    text-align: center;
   }
-  .name-title {
-    font-size: 3em;
-  }
+
   .bottom-head {
-    font-size: 1em;
+    font-size: 20px !important;
+    text-align: center;
+    padding: 1em;
+  }
+  .left-text {
+    margin: 0 0 10em 0 !important;
   }
   .social-svg {
     font-size: 1.6em;
@@ -93,6 +97,7 @@
   }
   .social-links {
     position: fixed;
+    top: 2em !important;
   }
   .card-container {
     height: 2em;
@@ -110,7 +115,6 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    overflow-y: hidden;
   }
   #project {
     height: 100vh;
@@ -139,25 +143,25 @@
     position: relative;
     text-align: center;
     width: 100vw;
-    margin: 0;
-    margin-top: 5em;
+    margin: 20em 0 0 0 !important;
   }
   #et-1 {
-    font-size: 10px;
+    font-size: 28px !important;
   }
   #et-2 {
-    font-size: 15px;
+    font-size: 17px !important;
   }
   #et-3 {
-    font-size: 10px;
+    font-size: 18px !important;
   }
   .toolitem {
-    height: 40px;
+    height: 55px !important;
   }
   .setoftools {
-    width: 400px;
-    left: 8%;
-    transform: none;
+    width: 400px !important;
+    left: 1% !important;
+    transform: none !important;
+    margin-top: 3em !important;
   }
   .tools-title {
     position: relative;
@@ -166,7 +170,7 @@
   }
   .tools {
     margin-right: 10em;
-    width: 389px;
+    width: 389px !important;
     height: 100px;
   }
   /*ABOUT ME SECTION*/
@@ -186,11 +190,11 @@
     font-size: 13px;
   }
   .personal-img {
-    width: 10em;
-    transform: none;
-    top: auto;
-    margin-top: 35px;
-    margin-left: 18px;
+    width: 10em !important;
+    transform: none !important;
+    top: auto !important;
+    margin-top: 35px !important;
+    margin-left: 18px !important;
   }
   .left-column-aboutme {
     margin: 20px 0 10em 4em;
@@ -216,6 +220,7 @@
   #message-input {
     display: flex;
     align-items: center;
+    margin-left: 1.2em;
   }
   .contact-form-table {
     position: relative;
@@ -227,11 +232,12 @@
     letter-spacing: 5px;
   }
   .name-title {
-    font-size: 30px;
+    font-size: 50px !important;
+    text-align: center;
   }
-  .bottom-head {
-    font-size: 18px;
-  }
+  /* .bottom-head {
+    font-size: 20px !important;
+  } */
   .main-page {
     display: flex !important;
     flex-direction: column-reverse;
@@ -420,6 +426,7 @@
   }
 }
 
+/* different orientation */
 @media only screen and (min-width: 890px) and (max-height: 446px) and (max-width: 1000px) and (orientation: landscape) {
   .hero {
     height: 17em;
@@ -488,7 +495,7 @@
     width: 26em;
   }
 }
-/* @media only screen and (min-width: 800px) and (max-height: 446px) and (max-width: 830px) and (orientation: landscape) {
+@media only screen and (min-width: 800px) and (max-height: 446px) and (max-width: 830px) and (orientation: landscape) {
   .hero {
     height: 17em;
     width: 18em;
@@ -535,7 +542,6 @@
   }
   .setoftools {
     width: 800px;
-  
   }
   .tools-title {
     position: relative;
@@ -554,4 +560,4 @@
   .left-column-aboutme {
     width: 21em;
   }
-} */
+}
