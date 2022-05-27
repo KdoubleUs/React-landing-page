@@ -258,18 +258,22 @@
     width: 100vw;
   }
   .hero {
-    height: 14em;
-    width: 14em;
-    margin-right: 4em;
+    height: 17em;
+    width: 17em;
+    margin: 7em 0 0 4em !important;
   }
   .top-head {
     font-size: 1.2em;
+    text-align: center;
   }
   .name-title {
     font-size: 3em;
+    text-align: center;
   }
   .bottom-head {
-    font-size: 1em;
+    font-size: 1.5em !important;
+    text-align: center;
+    padding: 1em;
   }
   .social-svg {
     font-size: 1.6em;
@@ -277,6 +281,7 @@
   }
   .social-links {
     position: fixed;
+    top: 3em !important;
   }
   .card-container {
     height: 2em;
@@ -294,6 +299,9 @@
     height: 100%;
     display: flex;
     flex-direction: row;
+  }
+  .left-text {
+    margin: 0 0 10em 0 !important;
   }
   #project {
     height: 100vh;
