@@ -490,14 +490,14 @@
     text-align: center;
   }
   .personal-img {
-    width: 13em;
+    width: 13em !important;
     height: auto;
   }
   p {
     font-size: 11px;
   }
   .contact-title {
-    margin: 0;
+    margin: 0 !important;
   }
   .left-column-aboutme {
     width: 26em;
@@ -556,14 +556,14 @@
     text-align: center;
   }
   .personal-img {
-    width: 13em;
+    width: 13em !important;
     height: auto;
   }
   p {
     font-size: 11px;
   }
   .contact-title {
-    margin: 0;
+    margin: 0 !important;
   }
   .left-column-aboutme {
     width: 21em;
