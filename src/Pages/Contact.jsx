@@ -29,9 +29,9 @@ function Contact() {
           one of my media pages. Feel free to send me an email about anything. I
           love to meet new people and make new friends! Lets Connect
         </p>
-        <table className="contact-form-table">
-          <tr className="tr">
-            <td align="">
+        <div className="contact-input">
+          <div className="contact-innerBox">
+            <div className="tr">
               <span className="label"> Name:</span>
               <motion.input
                 type="text"
@@ -44,10 +44,8 @@ function Contact() {
                 transition={{ duration: 0.2 }}
                 className="inputs"
               />
-            </td>
-          </tr>
-          <tr className="tr">
-            <td align="">
+            </div>
+            <div className="tr">
               <span className="label"> Email:</span>
               <motion.input
                 type="text"
@@ -60,10 +58,8 @@ function Contact() {
                 transition={{ duration: 0.2 }}
                 className="inputs"
               />
-            </td>
-          </tr>
-          <tr>
-            <td align="" className="label" id="message-input">
+            </div>
+            <div>
               <span className="label"> Message:</span>
               <motion.input
                 type="text"
@@ -75,22 +71,22 @@ function Contact() {
                 transition={{ duration: 0.2 }}
                 className="inputs"
               />
-            </td>
-          </tr>
+            </div>
+          </div>
+        </div>
 
-          <motion.button
-            type="submit"
-            className="submitbtn"
-            whileHover={{
-              scale: 1.05,
-            }}
-            initial="none"
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.1 }}
-          >
-            Submit
-          </motion.button>
-        </table>
+        <motion.button
+          type="submit"
+          className="submitbtn"
+          whileHover={{
+            scale: 1.05,
+          }}
+          initial="none"
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.1 }}
+        >
+          Submit
+        </motion.button>
         <Footer />
       </Container>
     </Section>
